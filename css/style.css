@@ -1,0 +1,651 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	/*outline: 1px solid red;*/
+}
+
+header
+{
+	background-color: #003459;
+	z-index: 2;
+}
+
+body
+{
+	font-family: Roboto, arial, helvetica, sans-serif;
+	color: #00171F;
+	background: url(../images/bg-scene.png) no-repeat;
+	background-attachment: scroll;
+	font-size: 1.2em;
+	/*background-color: #F4F4F4;*/
+}
+
+h1
+{
+	font-weight: normal;
+	font-family: 'Roboto Slab', serif;
+	color: black;
+}
+
+h2
+{
+	font-family: 'Roboto Slab', serif;
+	font-weight: normal;
+	text-align: center;
+	color: #00171F;
+	padding-left: 10px;
+	padding-bottom: 0.5em;
+	padding-top: 0;
+}
+
+h3
+{
+	font-family: 'Roboto', serif;
+	font-weight: normal;
+	color: #00171F;
+	padding-left: 7px;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
+
+strong
+{
+	padding-left: 7px;
+}
+
+p
+{
+	padding-bottom: 1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+li
+{
+	list-style-type: none;
+	list-style-position: inside;
+	/*padding-left: 15px;*/
+}
+
+nav li
+{
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	font-size: 0.8em;
+}
+
+footer
+{
+	color: white;
+	text-align: center;
+	background-color: rgba(0, 52, 89, 1);
+}
+
+nav a
+{
+	display: inline-flex;
+	justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	height: 100%;
+}
+
+#intro
+{
+	/*background: linear-gradient(#E5F8FF, white);*/
+	/*background: white;*/
+	background: white;
+	padding: 30px;
+	margin-left: -25px;
+	text-align: center;
+	font-size: 1.1em;
+	font-family: 'Roboto Slab', serif;
+}
+
+#sunnyspot
+{
+	background-image: url(../images/sunnyspot.png);
+	background-color: white;
+}
+
+#boostworks
+{
+	background-image: url(../images/boostworks.png);
+	background-color: white;
+}
+
+#starburger
+{
+	background-image: url(../images/starburger.png);
+	background-color: white;
+}
+
+#tools
+{
+	background-image: url(../images/tools.png);
+	background-color: white;
+}
+
+#wordpress
+{
+	background-image: url(../images/wordpress.png);
+	background-color: white;
+}
+
+#surfaustralia
+{
+	background-image: url(../images/surfaustralia.png);
+	background-color: white;
+}
+
+.project-item 
+{
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*background: url(https://placekitten.com/g/400/300);*/
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: #003459;
+}
+
+.project-item div
+{
+	color: rgba(255,255,255,0);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#see-more
+{
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	width: 100%;
+	height: 3em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #007EA7;
+}
+
+#see-more div
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background-color 0.2s;
+}
+
+#see-more div:hover
+{
+	background-color: #00A8E8;
+}
+
+#boostworks-page, #starburger-page, #tools-page, #sunnyspot-page, #wordpress-page, #surfaustralia-page
+{
+	width: 100%;
+}
+
+label
+{
+	display: flex;
+	margin-left: 5px;
+	padding-bottom: 5px;
+}
+
+input
+{
+	font-family: 'Roboto';
+	padding: 10px;
+	border-radius: 5px;
+	border: 0;
+	background-color: #F2F2F2;
+}
+
+textarea
+{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 0;
+	background-color: #F2F2F2;
+}
+
+#contact p input
+{
+	width: 100%;
+}
+
+#contact .submitButton
+{
+	margin-left: 10px;
+}
+
+#social-media a
+{
+	transition: 0.5s;
+}
+
+#social-media a:hover
+{
+	opacity: .7;
+}
+
+footer
+{
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+footer #social-media
+{
+	font-size: 2em;
+}
+
+footer p
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 0.8em;
+}
+
+.desc a
+{
+	color: #007EA7;
+	text-decoration: none;
+}
+
+.stuff a
+{
+	color: #007EA7;
+	text-decoration: none;
+}
+
+.stuff
+{
+	width: 100%;
+	background-color: white;
+	box-sizing: border-box;
+}
+
+.stuff li
+{
+	list-style-type: disc;
+	padding-left: 15px;
+}
+
+.design-container
+{
+	width: 100%;
+	background-color: white;
+	box-sizing: border-box;
+	display: flex;
+}
+
+#samples
+{
+	background-color: #F4F4F4;
+}
+
+#contact form
+{
+	width: 300px;
+}
+
+#portrait h1
+{
+	font-family: 'Zilla Slab Highlight', serif;
+	font-size: 72px;
+	color: #003459;
+	opacity: 0.7;
+	text-align: center;
+	z-index: 1;
+}
+
+#portrait img
+{
+	position: absolute;
+	z-index: 1;
+	border-radius: 150px;
+}
+
+.top-btn, .resume-btn, .contact-btn, .more-btn, .submitButton
+{
+	font-family: Roboto, arial, helvetica, sans-serif;
+	font-size: 1em;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	border: 0;
+	border-radius: 3px;
+	padding: 15px;
+	color: white;
+	background-color: #007EA7;
+	transition: 0.2s;
+}
+
+.top-btn:hover, .resume-btn:hover, .contact-btn:hover, .more-btn:hover, .submitButton:hover,
+{
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+	background-color: #00A8E8;
+}
+
+#msg-btn
+{
+	font-family: Roboto, arial, helvetica, sans-serif;
+	font-size: 1em;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	border: 0;
+	border-radius: 5px;
+	margin-left: 8px;
+	color: white;
+	background-color: #00A8E8; 
+	transition: 0.2s;
+	margin-top: 25px;
+	padding: 22px;
+}
+
+#msg-btn:hover
+{
+	background-color: #19C1FF;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.fa
+{
+	padding-top: 1px;
+	padding-right: 10px;
+}
+
+#error-area
+{
+	font-size: 0.8em;
+	color: red;
+	text-align: center;
+}
+
+.design-container h2 a
+{
+	text-decoration: none;
+	color: black;
+}
+
+iframe#ssad
+{
+	display: none;
+}
+
+@media only screen and (min-width: 1200px)
+{
+	iframe#ssad
+	{
+		display: inline-flex;
+		height: 90px;
+		width: 728px;
+		margin: auto;
+		border: none;
+	}
+
+	header
+	{
+		background-color: rgba(0, 52, 89, 0.9);
+		position: fixed;
+		width: 100%;
+	}
+
+	#portrait
+	{
+		border-radius: 150px;
+		display: flex;
+		background: url(../images/moon.png);
+		background-repeat: no-repeat;
+		background-position: bottom;
+		height: 300px;
+		width: 300px;
+		margin-bottom: 50px;
+	}
+
+	#contact form
+	{
+		width: 500px;
+		margin: auto;
+	}
+
+	nav a
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#banner
+	{
+		padding-top: 50px;
+		padding-bottom: 15px;
+	}
+
+	ul
+	{
+		width: 1200px;
+	}
+
+	nav li
+	{
+		display: inline-flex;
+		justify-content: center;
+		width: calc(100%/5);
+		/*padding: 15px 0 15px 0;*/
+		transition: 0.2s;
+		text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	}
+
+	nav li:hover
+	{
+		/*background-color: rgba(255, 255, 255, 0.2);*/
+		box-shadow:inset 0px 50px 0px 0.1px #00A8E8;
+	}
+
+	footer
+	{
+		background-color: rgba(0, 52, 89, 0.9);
+	}
+
+	#portrait
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 0;
+		margin: auto;
+		width: 300px;
+		order: 1;
+	}
+
+	#intro
+	{
+		width: 100%;
+		padding: 0;
+		padding-bottom: 200px;
+		margin-left: 0;
+		text-align: center;
+		order: 2;
+		background: none;
+	}
+
+	#intro p
+	{
+		font-size: 1.8em;
+		font-family: 'Roboto slab', serif;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 0;
+	}
+
+	#intro h2
+	{
+		padding-bottom: 0.5em;
+	}
+
+	#about, #projects, #resume, #contact
+	{
+		padding-top: 49px;
+	}
+
+
+	#banner .wrapper
+	{
+		min-height: 936px;
+		/*background-color: white;*/
+	}
+
+	.wrapper
+	{
+		max-width: 1200px;
+		display: flex;
+		flex-wrap: wrap;
+		margin: auto;
+	}
+
+	.project-item
+	{
+		width: 400px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.project-item div
+	{
+		color: rgba(255,255,255,0);
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: 0.4s;
+	}
+
+	.project-item div:hover
+	{
+		color: rgba(255,255,255,1);
+		box-shadow:inset 0px -300px 0px 0.1px rgba(0, 0, 0, 0.9);
+		/*background-color: rgba(0, 0, 0, 0.8);*/
+	}
+
+	#boostworks-page, #starburger-page, #tools-page, #sunnyspot-page, #wordpress-page, #surfaustralia-page
+	{
+		padding-top: 49px;
+	}
+
+	#designs
+	{
+		max-width: 1200px;
+	}
+
+	.stuff
+	{
+		padding: 30px 75px 0px 75px;
+		max-width: 900px;
+		margin: auto;
+	}
+
+	.design-container
+	{
+		width: 100%;
+		flex-flow: row wrap;
+		/*background-color: #F4F4F4;*/
+	}
+
+	.fullview
+	{
+		width: 100%;
+		height: 700px;
+		margin: auto;
+	}
+
+	#fullview-surf
+	{
+		background: url(../images/surfaustralia-full.png);
+		background-repeat: no-repeat;
+		background-size: 1200px 800px;
+		background-color: #F4F4F4;
+		background-position: center;
+	}
+
+	#fullview-boost
+	{
+		background: url(../images/boostworks-full.png);
+		background-repeat: no-repeat;
+		background-size: 1200px 800px;
+		background-color: #F4F4F4;
+		background-position: center;
+	}
+
+	#fullview-tools
+	{
+		background: url(../images/tools-full.png);
+		background-repeat: no-repeat;
+		background-size: 1200px 800px;
+		background-color: #F4F4F4;
+		background-position: center;
+	}
+
+	#fullview-starburger
+	{
+		background: url(../images/starburger-full.png);
+		background-repeat: no-repeat;
+		background-size: 1200px 800px;
+		background-color: #F4F4F4;
+		background-position: center;
+	}
+
+	#fullview-sunnyspot
+	{
+		background: url(../images/sunnyspot-full.png);
+		background-repeat: no-repeat;
+		background-size: 1200px 800px;
+		background-color: #F4F4F4;
+		background-position: center;
+	}
+
+	#fullview-wordpress
+	{
+		background: url(../images/wordpress-full.png);
+		background-repeat: no-repeat;
+		background-size: 1200px 800px;
+		background-color: #F4F4F4;
+		background-position: center;
+	}
+
+	.desc
+	{
+		display: flex;
+		flex-flow: row wrap;
+		width: 750px;
+		padding: 50px 150px 0px 150px;
+		margin: auto;
+		background-color: white;
+	}
+
+	.desc h2
+	{
+		margin: auto;
+	}
+
+	#msg-btn
+	{
+		/*margin-left: 50px;*/
+	}
+}
